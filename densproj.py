@@ -16,8 +16,6 @@ import numpy as np                                       # Numerical tools
 from collections import namedtuple                       # High perf containers
 
 # Local modules import
-sys.path.append(os.path.abspath('cqsampling'))
-import cqsampling; importlib.reload(cqsampling)
 from cqsampling import inv_transform
 
 
